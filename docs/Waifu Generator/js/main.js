@@ -17,7 +17,7 @@ var panel;
 function preload() {
 	// preload assets
     
-    game.load.path = 'assets/img/';
+    game.load.path = 'Waifu Generator/assets/img/';
     game.load.images(['bg', 'body', 'shirt'],['school_background.png', 'body.png', 'shirt.png']);
     game.load.atlas('mouth', 'mouth_sheet.png', 'sprites.json');
     game.load.atlas('eyes', 'eyes_sheet.png', 'eye_sprites.json');
